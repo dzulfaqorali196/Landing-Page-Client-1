@@ -24,20 +24,20 @@ export default function LandingPage() {
       <div className="text-center mb-8 sm:mb-12 mt-4 sm:mt-8">
         <h1 className="text-4xl sm:text-7xl font-pixel font-bold text-gray-800 mb-2 flex justify-center" 
             style={{ letterSpacing: '0.25em' }}>
-          DOLOS
+          SOLOD
         </h1>
         <p className="text-xs sm:text-sm text-gray-800 font-pixel">
-          Ancient villain reborn
+          Modern hero renewed
         </p>
       </div>
 
       {/* Main Content Box */}
-      <div className="w-full max-w-3xl aspect-video bg-sage-200 rounded-[20px] sm:rounded-[40px] border-2 sm:border-4 border-gray-800 mb-8 sm:mb-16">
-        <div className="w-full h-full flex items-center justify-center p-4 sm:p-8">
+      <div className="w-full max-w-3xl aspect-video bg-sage-200 rounded-[32px] border-[3px] border-gray-800 mb-8 sm:mb-16 overflow-hidden shadow-[4px_4px_0px_rgba(0,0,0,0.25)]">
+        <div className="w-full h-full flex items-center justify-center">
           <img 
-            src="/placeholder.svg?height=200&width=200" 
+            src="/subheading.gif" 
             alt="Retro style illustration"
-            className="max-w-[120px] sm:max-w-[200px]"
+            className="w-full h-full object-cover"
           />
         </div>
       </div>
