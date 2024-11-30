@@ -36,7 +36,7 @@ export default function LandingPage() {
       <div className="w-full max-w-3xl aspect-video bg-sage-200 rounded-[32px] mb-8 sm:mb-16 overflow-hidden">
         <div className="w-full h-full flex items-center justify-center">
           <Image 
-            src="/subheading.gif"
+            src="/Subheading.gif"
             alt="Retro style illustration"
             width={800}
             height={450}
