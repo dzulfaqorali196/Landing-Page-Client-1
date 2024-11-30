@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import { Twitter, Send, Wallet2 } from 'lucide-react'
 import Image from 'next/image';
 
 export default function LandingPage() {
@@ -7,16 +6,16 @@ export default function LandingPage() {
     <div className="min-h-screen flex flex-col items-center px-4 py-8 bg-primary">
       {/* Social Icons */}
       <div className="fixed top-4 right-4 flex gap-3 sm:gap-6">
-        <Link href="#" className="hover:scale-110 transition-transform">
+        <Link href="#" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
           <img src="/X.svg" alt="X" className="w-4 h-4 sm:w-6 sm:h-6" />
         </Link>
-        <Link href="#" className="hover:scale-110 transition-transform">
+        <Link href="#" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
           <img src="/Telegram.svg" alt="Telegram" className="w-4 h-4 sm:w-6 sm:h-6" />
         </Link>
-        <Link href="#" className="hover:scale-110 transition-transform">
+        <Link href="#" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
           <img src="/Meta.png" alt="Meta" className="w-4 h-4 sm:w-6 sm:h-6" />
         </Link>
-        <Link href="#" className="hover:scale-110 transition-transform">
+        <Link href="https://solana.com" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
           <img src="/Solana.png" alt="Solana" className="w-4 h-4 sm:w-6 sm:h-6" />
         </Link>
       </div>
