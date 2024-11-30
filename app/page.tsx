@@ -6,15 +6,9 @@ export default function LandingPage() {
     <div className="min-h-screen flex flex-col items-center px-4 py-8 bg-primary">
       {/* Social Icons */}
       <div className="fixed top-4 right-4 flex gap-3 sm:gap-6">
-        <Link href="#" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
+        <Link href="https://x.com/solod_diary" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
           <img src="/X.svg" alt="X" className="w-4 h-4 sm:w-6 sm:h-6" />
-        </Link>
-        <Link href="#" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
-          <img src="/Telegram.svg" alt="Telegram" className="w-4 h-4 sm:w-6 sm:h-6" />
-        </Link>
-        <Link href="#" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
-          <img src="/Meta.png" alt="Meta" className="w-4 h-4 sm:w-6 sm:h-6" />
-        </Link>
+        </Link> 
         <Link href="https://solana.com" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
           <img src="/Solana.png" alt="Solana" className="w-4 h-4 sm:w-6 sm:h-6" />
         </Link>
@@ -59,10 +53,10 @@ export default function LandingPage() {
           LORE
           <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 group-hover:w-full transition-all duration-300"></span>
         </Link>
-        <Link href="#" className="relative hover:opacity-75 hover:scale-110 transition-all group">
+        {/* <Link href="#" className="relative hover:opacity-75 hover:scale-110 transition-all group">
           WALLET
           <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 group-hover:w-full transition-all duration-300"></span>
-        </Link>
+        </Link> */}
       </nav>
     </div>
   )
