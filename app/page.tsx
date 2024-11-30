@@ -48,16 +48,16 @@ export default function LandingPage() {
 
       {/* Navigation Links - Vertikal di mobile, horizontal di desktop */}
       <nav className="flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-16 font-pixel text-gray-800 text-sm sm:text-xl">
-        <Link href="#" className="relative hover:opacity-75 hover:scale-110 transition-all group">
-          BIRTH
+        <Link href="https://medium.com/@staycold912/birth-fde508fa272c" target="_blank" rel="noopener noreferrer" className="relative hover:opacity-75 hover:scale-110 transition-all group">
+          EMERGENCE
           <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 group-hover:w-full transition-all duration-300"></span>
         </Link>
-        <Link href="#" className="relative hover:opacity-75 hover:scale-110 transition-all group">
-          FUTURE
+        <Link href="https://medium.com/@staycold912/future-fb4bcd01cdca" target="_blank" rel="noopener noreferrer" className="relative hover:opacity-75 hover:scale-110 transition-all group">
+          VISION
           <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 group-hover:w-full transition-all duration-300"></span>
         </Link>
-        <Link href="#" className="relative hover:opacity-75 hover:scale-110 transition-all group">
-          DOCS
+        <Link href="https://medium.com/@staycold912/solod-d06833d04e62" target="_blank" rel="noopener noreferrer" className="relative hover:opacity-75 hover:scale-110 transition-all group">
+          LORE
           <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 group-hover:w-full transition-all duration-300"></span>
         </Link>
         <Link href="#" className="relative hover:opacity-75 hover:scale-110 transition-all group">
