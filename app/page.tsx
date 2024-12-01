@@ -9,8 +9,8 @@ export default function LandingPage() {
         <Link href="https://x.com/solod_diary" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
           <img src="/X.svg" alt="X" className="w-4 h-4 sm:w-6 sm:h-6" />
         </Link> 
-        <Link href="https://solana.com" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
-          <img src="/Solana.png" alt="Solana" className="w-4 h-4 sm:w-6 sm:h-6" />
+        <Link href="https://dexscreener.com/" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
+          <img src="/dex-screener-seeklogo.svg" alt="Dexscreener" className="w-4 h-4 sm:w-6 sm:h-6 invert" />
         </Link>
       </div>
 
